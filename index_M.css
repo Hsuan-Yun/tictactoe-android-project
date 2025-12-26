@@ -1,0 +1,216 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexming.css);
+@import url(https://fonts.googleapis.com/css2?family=Satisfy&display=swap);
+
+html {
+    min-width: 300px;
+    overflow-x: scroll;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3d397b;
+}
+
+div.center {
+    display: flex;
+    justify-content: center;
+}
+
+#navbar {
+    width: 100%;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    position: fixed;
+    background: #fda3b7;
+}
+
+#navbar_title {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 0.5rem;
+    font-family: 'Satisfy', cursive;
+    font-size: 1rem;
+    color: #3d397b;
+}
+
+button.navbarButton {
+    width: 2.5rem;
+    height: 2.2rem;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: 'cwTeXFangSong', serif;
+    font-size: 0.8rem;
+    color: #3d397b;
+}
+
+#OOXX1 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+#profile {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 1.4rem;
+    border: 1px solid;
+    border-color: #fda3b7;
+    margin-left: 2rem;
+    overflow: hidden;
+}
+
+#profilePhoto {
+    width: 7rem;
+    height: auto;
+    object-fit: cover;
+}
+
+#sentence {
+    margin-left: 2rem;
+}
+
+#sentence_English {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.7rem;
+    color: #fda3b7;
+}
+
+#sentence_formula {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+
+#sentence_Chinese {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: -1rem;
+    font-family: 'cwTeXFangSong', serif;
+    font-size: 1.3rem;
+    color: #fda3b7;
+}
+
+#temM2 {
+    margin-left: 7rem;
+}
+
+#temM4 {
+    margin-left: 6rem;
+}
+
+
+#temM5 {
+    display: none;
+}
+
+
+span.English {
+    font-family: 'Satisfy', cursive;
+}
+
+span.move {
+    margin-left: 1rem;
+}
+
+#introduction {
+    clear: both;
+}
+
+div.basic {
+    margin-left: 2rem;
+}
+
+#tem1 {
+    padding-top: 0rem;
+}
+
+p.introduction_B {
+    font-family: 'cwTeXFangSong', serif;
+    font-size: 1.05rem;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+p.introduction {
+    margin-right: 2rem;
+    line-height: 1.2rem;
+    font-family: 'cwTeXFangSong', serif;
+    font-size: 1.05rem;
+    color: #ffffff;
+}
+
+#OOXX2 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+#OOXX3 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+a.link {
+    font-family: 'cwTeXFangSong', serif;
+    font-size: 0.95rem;
+    color: #fda3b7;
+}
+
+a.link:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+#OOXX4 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+#OOXX5 {
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+#OOXX6 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+img.photo {
+    height: 8rem;
+    object-fit: cover;
+    background: #ffffff;
+}
